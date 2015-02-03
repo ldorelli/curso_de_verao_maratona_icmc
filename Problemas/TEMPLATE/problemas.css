@@ -8,7 +8,13 @@ h2 {
 	margin-bottom: 0px;
 }
 
+
+.problem-container {
+	width: 80%;
+}
+
 .io-description {
+	text-align: justify;
 	white-space: pre-wrap;
 	margin-left: 5%;
 	padding-bottom: 10px;
@@ -23,6 +29,7 @@ h2 {
 }
 
 .problem-description {
+	text-align: justify;
 	white-space: pre-wrap;
 	padding-top: 15px;
 	padding-bottom: 10px;

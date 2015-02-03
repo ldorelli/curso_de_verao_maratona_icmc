@@ -1,0 +1,67 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Barril de Rum</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo (~50 casos) </div>
+	<div class="detail"> ML: 64 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Os piratas do Caribe comandados por Diego pretendem invadir o armazém contendo barris de rum. O armazém pode ser representado por uma matriz de <strong>N</strong> linhas e <strong>M</strong> colunas. 
+Cada posição da matriz pode ou não conter um barril de rum. 
+Um pirata pode andar apenas horizontalmente ou verticalmente no armazém, ou seja, dar um passo para cima, baixo, direita ou esquerda. O pirata só pode andar se e somente se não houver um barril de rum para a posição onde ele for. 
+Ele não pode sair da matriz que representa o armazém 
+A entrada do armazém fica no canto superior esquerdo. Dado a configuração do armazém, qual a área máxima que um pirata pode cobrir? Ou seja, conte o número de posições que um pirata pode atingir!
+<!-- Insira imagem aqui -->
+<img src="barril.png" />
+A figura acima ilustra o último caso de exemplo. A matriz é de 4 linhas por 4 colunas, o pirata só consegue chegar nas áreas azuis, que totalizam 8 de área.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A primeira linha de cada caso de teste contém o número <strong>N</strong> (1 <= <strong>N</strong> <= 1000) e <strong>M</strong> (1 <= <strong>M</strong> <= 1000), o número de linhas e de colunas. Nas próximas <strong>N</strong> linhas há <strong>M</strong> strings representando a configuração do armazém, se houver um "<strong>.</strong>" então não há nenhum barril, se houver um "<strong>o</strong>" então há um barril. É garantido que a entrada do armazém não contém um barril.
+Leia até o EOF.
+</div>
+
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+1 1
+.
+3 1
+.
+o
+.
+3 3
+.o.
+…
+o.o
+4 4
+..o.
+...o
+.oo.
+..o.
+</div>
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso imprima a área coberta pelos piratas.
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+1
+1
+6
+8
+</div>
+
+</div>

@@ -1,0 +1,57 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Carlota no Carnaval do Rio</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo (~50 casos) </div>
+	<div class="detail"> ML: 64 Mb </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Carlota foi visitar o Carnaval do Rio. Ela não é muito boa com distâncias, por isto pediu a sua ajuda. Você tem o mapa da cidade com pontos turísticos e calçadas os conectando entre si em ambas direções. (Se uma calçada conecta o ponto 1 ao ponto 2, Carlota pode caminhar do ponto 1 para o ponto 2 e também do ponto 2 para o ponto 1).
+Cada ponto é identificado por um número único de 1 a <strong>N</strong>. Carlota está atualmente no ponto 1 e deseja chegar ao ponto <strong>N</strong>. É possível que não se possa chegar em alguns pontos, isto significa que não é possível atingí-los utilizando apenas calçadas. A pergunta é: Carlota consegue chegar no destino apenas andando?
+
+<!-- Insira imagem aqui -->
+<img src="carlota.png" />
+</div>
+
+<h2> Entrada </h2>
+
+<div class="io-description">
+A primeira linha de cada caso de teste contém os números 2 <= <strong>N</strong> <= 1000 e 1 <= <strong>M</strong> <= 10^5, indicando o número de pontos turísticos e número de calçadas, respectivamente. Cada uma das <strong>M</strong> linhas seguintes representa uma calçada. Há dois números em cada linha, que são os identificadores de dois pontos conectados pela calçada. Leia até o <strong>EOF</strong>.
+</div>
+
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3 2
+1 2
+2 3
+4 4
+1 2
+2 1
+3 1
+4 1
+3 3
+1 1
+1 1
+1 1
+</div>
+
+<h2> Saída </h2>
+
+<div class="io-description">
+Imprima "S" caso for possível chegar ao destino e "N" caso contrário.
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+S
+S
+N
+</div>
+
+</div>
