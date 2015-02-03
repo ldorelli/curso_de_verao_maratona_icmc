@@ -1,0 +1,14 @@
+Esta pasta contém problemas, códigos, entrada e saída.
+Para criar um novo problema, siga as instruções a seguir.
+Instruções:
+	. Cada problema deve possuir sua própria pasta.
+	. O nome da pasta deve ser o nome do problema com "_" entre palavras.
+	. O problema deve ser escrito em html seguindo o padrão do template contido na pasta TEMPLATE.
+	. O nome do arquivo deve ser no estilo "nome_do_problema.html".
+	. O arquivo de entrada deve se chamar "nome_do_problema.in".
+	. O arquivo de saída deve se chamar "nome_do_problema.out".
+	. Os códigos AC devem se chamar "nro.cpp", em que nro é um inteiro começando em 1. Na primeira linha do código, deve constar o nome de seu criador e o ano em que foi escrito.
+	. Para cada problema deve haver pelo menos 2 códigos (opcional, porém recomendado).
+	. Os códigos que derem a resposta correta, porém forem muito lentos ou consumirem muita memória devem se chamar "nro_b.cpp", em que nro é um inteiro começando de 1.
+	. O gerador de casos de teste para o problema deve se chamar "gen.cpp".
+	. Para cada problema, deve ser criado um arquivo "Tags" que contenha as tags do problema.
