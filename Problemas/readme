@@ -11,4 +11,4 @@ Instruções:
 	. Para cada problema deve haver pelo menos 2 códigos (opcional, porém recomendado).
 	. Os códigos que derem a resposta correta, porém forem muito lentos ou consumirem muita memória devem se chamar "nro_b.cpp", em que nro é um inteiro começando de 1.
 	. O gerador de casos de teste para o problema deve se chamar "gen.cpp".
-	. Para cada problema, deve ser criado um arquivo "Tags" que contenha as tags do problema.
+	. Para cada problema, deve ser criado um arquivo "Tags" que contenha as tags do problema e um arquivo "Summary" que contenha uma breve descrição do problema.
