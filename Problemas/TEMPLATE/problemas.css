@@ -36,13 +36,23 @@ h2 {
 	margin-left: 5%;
 }
 
+.example-box {
+	margin-left: 5%;
+}
+
 .example {	
 	white-space: pre-wrap;
-	width: 50%;
+	width: 40%;
+	display: block;
 	padding: 5px 5px 5px 10px;
-	margin-left: 5%;
 	border: solid 1px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	position: relative;
 }
+
 
 img {
 	display: block;
