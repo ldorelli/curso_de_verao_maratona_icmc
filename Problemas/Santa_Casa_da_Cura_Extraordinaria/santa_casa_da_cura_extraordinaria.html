@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Santa Casa da Cura Extraordinária</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+O hospital Santa Casa da Cura Extraordinária foi fundado por Denis, um velho ranzinza que acha um absurdo crianças saudáveis serem atendidas antes de sábios anciões. Por isso, no hospital Santa Casa da Cura Extraordinária, as pessoas mais velhas têm prioridade. Porém, como Denis é impaciente, ele usa seu título de fundador para ser antendido primeiro, independente da idade dos pacientes na fila.
+O hospital Santa Casa da Cura Extraordinária está se modernizando, e Denis contratou você para criar o novo sistema do hospital.
+Existem 2 tipos de comando no sistema: "Chegou", denotado por <strong>C</strong> e "Atender", denotado por <strong>A</strong>.
+O comando <strong>C</strong> é seguido pelo nome e pela idade do paciente, indicando que este paciente chegou neste instante. O comando <strong>A</strong> indica que um paciente será atendido. A cada comando <strong>A</strong>, você deve imprimir o nome do paciente atendido.
+É garantido que quando haverá pelo menos um paciente na fila antes de um comando <strong>A</strong>.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A primeira linha da cada caso de teste contém um inteiro <strong>N</strong> (1 <= <strong>N</strong> <= 10^5) que indica o número de comandos. As <strong>N</strong> linhas seguintes possuem comandos do tipo <strong>A</strong> e <strong>C nome idade</strong>, em que <strong>nome</strong> é o nome do paciente e <strong>idade</strong> é a idade do paciente.
+O nome do paciente possui no máximo 10 caracteres alfanuméricos e a idade é menor ou igual a 100.
+Você deve ler até <strong>EOF</strong>.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada comando <strong>A</strong>, imprima a idade do paciente a ser atendido em uma linha, separados por espaço.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+5
+C Carlos 17
+A
+C Carla 50
+C Carlene 9
+A
+3
+C Shi 99
+C Denis 88
+A
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+17
+50
+88
+</div>
+</div>
+
+</div>
+
