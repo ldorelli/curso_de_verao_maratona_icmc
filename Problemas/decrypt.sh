@@ -1,2 +1,2 @@
-aescrypt -d -k secret.key $1
+aescrypt -d -k ~/Documents/secret.key $1
 git rm $1
