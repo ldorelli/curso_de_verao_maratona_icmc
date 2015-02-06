@@ -1,0 +1,4 @@
+Para criar um problemset, siga os passos:
+
+Crie um arquivo config com a lista dos nomes dos problemas da prova, em ordem.
+Rode o script gen_problemset.sh, passando o nome do diretório que vai conter a prova.
