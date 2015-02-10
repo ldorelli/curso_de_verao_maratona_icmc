@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Caixa do Banco</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Em um determinado banco, as pessoas recebem uma senha que determina a ordem em que elas são atendidas. O trabalho até agora era manual, mas você foi contratado para automatizar o processo.
+O sistema deve funcionar assim. Existem dois tipos de comando:
+<ul>
+	<li><strong>CHEGOU x</strong> : este comando significa que a pessoa identificada pelo número x (1 <= <strong>x</strong> <= 2^31-1) chegou. Podem existir pessoas com mesmo número de identificação na fila! Para cada comando deste você deve imprimir o tamanho da fila depois que esta pessoa chegou.</li>
+	<li><strong>ATENDER</strong> : este comando significa que você deve atender a primeira pessoa da fila. Para cada comando deste você deve imprimir o número da pessoa atendida, e se a fila estiver vazia imprima 0.</li>
+</ul>
+Implemente o sistema pedido.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+Cada caso de teste começa com um número <strong>N</strong> (1 <= <strong>N</strong> <= 10000), que indica o número de comandos. Cada comando será do tipo indicado na descrição do problema. Você deve ler até <strong>EOF</strong>.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada comando <strong>ATENDER</strong>, imprima o número da pessoa atendida e 0 se a fila estiver vazia.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+4
+CHEGOU 1
+CHEGOU 1
+ATENDER
+ATENDER
+3
+CHEGOU 1000
+ATENDER
+ATENDER
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+1
+2
+1
+1
+1
+1000
+0
+</div>
+</div>
+
+</div>
+

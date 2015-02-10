@@ -1,0 +1,60 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Roberterson e as pedras preciosas</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Roberterson ganha a vida minerando e vendendo pedras preciosas. Ele é reconhecido pelo seu trabalho pois é extremamente metódico e experiente, minerando blocos quadrados de 1 m2 de cada vez. Semana passada a sua principal fonte de pedras preciosas se esgotou e agora ele está procurando por uma nova fonte. Caminhando por aí com a sua velha picareta, ele ficou surpreso quando finalmente encontrou uma fonte promissora.
+Na sua frente estava um bloco rochoso com <strong>N</strong> metros de comprimento por <strong>M</strong> de largura. Antes de voltar para casa ele gostaria de obter o máximo valor possível em pedras, mas a sua picareta só irá aguentar minerar <strong>K</strong> metros quadrados até quebrar. Com sua vasta experiência ele consegue determinar com certeza qual é o valor em pedras preciosas de cada bloco de 1 metro quadrado que está acessível, mas ele não pode concluir nada sobre os blocos que estão ocultos no meio. Depois de pensar bastante, ele resolveu usar a estratégia de minerar sempre o bloco de maior valor que ele tem acesso, até que sua picareta quebre.
+
+
+Blocos acessíveis e não acessíveis depois da mineração de dois blocos:
+<img src="p1.png"/>
+
+Dado o valor de cada metro quadrado do bloco rochoso de dimensões <strong>N</strong> por <strong>M</strong>, imprima o qual é valor total em pedras preciosas que Roberterson vai levar para casa.
+
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta por vários casos de teste. Cada caso de teste possui na primeira linha os inteiros <strong>N</strong> (1 ≤ <strong>N</strong> ≤ 150) e <strong>M</strong> (1 ≤ <strong>M</strong> ≤ 150) indicando as dimensões do bloco rochoso e o inteiro <strong>K</strong> (0 ≤ <strong>K</strong> ≤ <strong>M</strong>*<strong>N</strong>) . As próximas N linhas contém M inteiros cada, indicando o valor de cada quadrado de 1m2. Os valores são positivos, menores que 10^9 e são diferentes uns dos outros.
+</div>
+
+
+<h2> Saída </h2>
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o valor total em pedras preciosas que Roberterson irá levar para casa.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+5 4 7
+8 25 24 9
+6 23 20 4
+10 16 18 13
+3 5 11 17
+2 22 19 12
+</div>
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+151
+</div>
+</div>
+
+</div>
+
