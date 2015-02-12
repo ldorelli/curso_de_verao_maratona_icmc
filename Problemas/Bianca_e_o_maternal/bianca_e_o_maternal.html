@@ -1,0 +1,58 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Bianca e o Maternal</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Bianca é uma professora de maternal para crianças prodígias. Ela quer saber a nota que seus alunos dão para ela. Para isso, aproveitando a fila da cantina, Bianca pergunta para cada um dos seus alunos qual a nota que ele dá pra ela e resolve aceitar a maior nota como a nota verdadeira.
+
+Tudo seria muito simples se as crianças do maternal prodígio não adorassem política, democracia e discussão. Cada criança pergunta para seu melhor amigo a nota que ele daria para a Bianca e diz para a professora a média entre a nota que ela daria e a nota que seu amigo respondeu. O melhor amigo dessa criança realiza o mesmo processo. Se uma criança que já foi perguntada for perguntada novamente por outra criança, ela cansa do processo e não pergunta mais, dizendo apenas a nota que ela dá para Bianca. Quando o Bianca termina de perguntar para uma criança, todos se renovam e estão dispostos a realizar o processo novamente. 
+
+Ajude Bianca a dizer qual é a sua melhor nota e para qual criança deverá perguntar para obter esse resultado.
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+São diversos casos de teste. Cada caso de teste começa com um inteiro <strong>N</strong> (1 ≤ <strong>N</strong> ≤ 1000), o número de crianças na fila da cantina. Seguem <strong>N</strong> linhas, cada uma com dois inteiros, <strong>A</strong> (0 ≤ <strong>A</strong> ≤ 10), a nota que a i-ésima criança dá para Bianca, e <strong>B</strong>(0 ≤ <strong>B</strong> < N), o índice da criança que é melhor amiga da i-ésima criança.
+
+Uma criança pode ser melhor amiga dela mesma. Triste, né?
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste, imprima uma linha com dois números separados por espaço. O primeiro número é a melhor nota que Bianca consegue, com 3 casas decimais de precisão, e o segundo é o índice da criança para qual deve ser realizada a pergunta para obter essa nota. Se mais de uma criança responder a nota máxima, imprima a de menor índice.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3
+5 1
+10 0
+8 1
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+8.750 1
+</div>
+</div>
+
+</div>
+
