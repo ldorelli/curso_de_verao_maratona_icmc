@@ -1,2 +1,4 @@
 aescrypt -e -k ~/Documents/secret.key $1 
-rm $1
+if [ "$?" = "0" ]; then
+	rm $1
+fi
