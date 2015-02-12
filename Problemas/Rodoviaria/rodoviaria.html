@@ -1,0 +1,62 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+
+<h1>Rodoviária</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 5 segundos </div>
+	<div class="detail"> ML: 128MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Robertersson conseguiu um emprego na rodoviária de sua cidade. Seu trabalho é muito simples, ele é encarregado dos horários de uma plataforma e sua principal tarefa é informar as pessoas sobre qual ônibus estará estacionado em um momento qualquer do dia. 
+Como a rodoviária de sua cidade é muito movimentada, sempre haverá um ônibus estacionado e para facilitar, Robertersson considera que o tempo entre um ônibus sair e outro entrar é nulo. 
+Todo dia Robertersson recebe uma tabela informando qual é o horário limite para cada ônibus estar estacionado, se em sua tabela diz que o ônibus A tem horário limite t, no exato momento t o ônibus A não pode mais estar na plataforma, e o próximo ônibus já estará na plataforma. 
+Sua tarefa é auxiliar Robertersson a responder perguntas do tipo: dado um instante t, qual ônibus estará estacionado na plataforma, assumindo que todos os ônibus seguem a sua tabela de horários e que o primeiro ônibus estará estacionado desde o instante 0.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta de vários casos de testes. Na primeira linha haverá um inteiro <strong>N</strong> correspondente ao número de ônibus que chegarão à plataforma que Robertersson é encarregado e também um inteiro <strong>Q</strong> correspondente ao número de perguntas feitas a Robertersson naquele dia.
+<br>Na segunda linha seguem <strong>N</strong> inteiros <strong>Ai</strong> referentes ao tempo limite para o i-ésimo ônibus, considere <strong>Aj</strong> > <strong>Ai</strong> para todo <strong>j</strong> > <strong>i</strong>.
+Nas próximas <strong>Q</strong> linhas haverá um inteiro <strong>Qi</strong> referente ao momento que alguém perguntou a Robertersson qual ônibus estará em sua plataforma.
+
+0 < N <= 100000
+0 < Q <= 100000
+0 <= Qi <= 1000000000
+0 <= Ai <= 1000000000
+</div>
+
+<h2> Saída </h2>
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada pergunta feita a Robertersson imprima um inteiro informando qual ônibus estará na plataforma. 
+Caso o instante Qi perguntando seja depois do último ônibus ter saído imprima -1.
+</div>
+
+<h2> Exemplos </h2>
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3 3
+3 5 10
+0
+3
+10
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+1
+2
+-1
+</div>
+</div>
+
+</div>
+
