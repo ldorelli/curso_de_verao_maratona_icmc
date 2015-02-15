@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Problem Title</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Em um tronco de árvore há algumas formigas. O tronco está deitado no chão na horizontal e tem tamanho <strong>D</strong> centímetros. Podemos representar como posição 0 a posição mais à esquerda do tronco e a posição <strong>D</strong> como a mais à direita.
+Cada formiga está em uma posição distinta. As formigas estão andando em uma velocidade constante de um centímetro por segundo, ou para a direita ou para a esquerda. Quando as formigas se encontram no tronco ambas mudam sua direção e, caso elas ultrapassem os limites dos troncos, elas caem dele. Uma formiga caiu do tronco se e somente se sua posição for menor ou igual do que 0 ou maior ou igual a <strong>D</strong>.
+Entretanto, é possível que formigas comecem na posição 0 ou <strong>D</strong>.
+Dado o tamanho do tronco e as posições e direções iniciais das formigas, quanto tempo (em segundos) irá levar para que todas caiam? É garantido que isto vai acontecer em algum determinado momento.
+
+<!-- Insira imagem aqui -->
+<img src="formigua.png" />
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+Há varios testes. A primeira linha de cada caso de teste contém os número <strong>N</strong> (1 <= <strong>N</strong> <= 10^5) e <strong>D</strong> (1 <= <strong>D</strong> <= 10^9), indicando o número de formigas e o tamanho do tronco respectivamente. Nas <strong>N</strong> linhas seguintes temos a descrição das formigas, indicando a posição e direção delas (1 para andando inicialmente para esquerda ou 0 andando inicialmente para direita). Os valores caberão em um inteiro e serão válidos. Leia até o <strong>EOF</strong>.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o tempo levado para que todas as formigas caiam do tronco.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+1 3
+0 0
+2 3
+0 0
+3 1
+2 3
+1 0
+2 1
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+3
+3
+2
+</div>
+</div>
+
+</div>
+
