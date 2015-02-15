@@ -1,0 +1,60 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Brock o Aviador</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Brock tem seu próprio avião. Inicialmente ele tem <strong>F</strong> de combustível disponível. Ele vai fazer vários voos consecutivos. Cada voo gasta uma certa quantidade de combustível, e só pode ser feito caso a quantidade de combustível seja suficiente. Antes de decolar ele poderá reabastecer o seu avião com uma quantidade de combustível que depende do voo que ele escolheu.
+Dado <strong>F</strong> e as informações de cada voo (quantidade necessária de combustível e quantidade de combustível que será reabastecido), qual o número máximo de voos que Brock pode fazer? Ele só pode fazer cada voo uma única vez e a quantidade que se pode reabastecer sempre é menor ou igual à quantidade que se gasta no voo.
+Por exemplo, suponha que <strong>F</strong> = 5 e existam 3 voos: (10, 8), (4, 1) e (5, 3). A resposta será 2, pois pode-se pegar o primeiro voo e reabastecer com 8 unidades, indo para <strong>F</strong> = 13 de combustível. Ao completar o primeiro voo tem-se <strong>F</strong> = 3 de combustível. Depois, pegando o segundo, reabastece-se 1 unidade, indo para <strong>F</strong> = 4. Ao completar o segundo tem-se <strong>F</strong> = 0 de combustível, não tendo como executar um terceiro voo. Lembre-se que se pode escolher os voos em qualquer ordem.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A primeira linha de cada caso de teste contém os números <strong>N</strong> (1 <= <strong>N</strong> <= 10^4) e <strong>F</strong> (1 <= <strong>F</strong> <= 10^9), indicando o número de voos disponíveis e o combustível. Na linha seguinte, há <strong>N</strong> valores separados por espaços (de 1 a 10^9), que indicam a quantidade necessária para executar cada voo. Na outra linha há mais <strong>N</strong> valores correspondentes à quantidade a ser reabastecida em cada voo.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o número máximo de voos possíveis.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+2 2
+6 2
+1 1
+4 5
+6 3 3 1
+1 2 2 1
+6 5
+6 3 2 5 4 2
+1 2 2 1 2 2
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+1
+3
+4
+</div>
+</div>
+Nota: No último exemplo, uma possível resposta seriam as viagens (numeradas a partir de 1):  2,3,5,6
+</div>
+

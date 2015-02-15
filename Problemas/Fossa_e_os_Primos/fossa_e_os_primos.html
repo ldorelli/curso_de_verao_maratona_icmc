@@ -1,0 +1,54 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Fossa e os Primos</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Fossa possui um intervalo de números inteiros, representado por [<strong>A</strong>, <strong>B</strong>], isto é, <strong>A</strong>, <strong>A</strong>+1, <strong>A</strong>+2, …, <strong>B</strong>. 
+Ele quer escolher um <strong>L</strong> qualquer, e criar todos os intervalos válidos de tamanho <strong>L</strong>, da forma [<strong>A</strong> + <strong>i</strong>, <strong>A</strong> + <strong>i</strong> + <strong>L</strong> - 1], onde 0 <= <strong>i</strong> <= <strong>B</strong> - <strong>A</strong> - <strong>L</strong> + 1.
+Como Fossa é louco, ele quer que em cada um desses intervalos existam pelo menos <strong>K</strong> números primos. Você consegue encontrar o menor valor de <strong>L</strong>,  caso ele exista? (Veja o exemplo de teste explicado em detalhes para entender melhor). 
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+Cada caso de teste é formado por uma linha que contém os números <strong>A</strong>, <strong>B</strong> e <strong>K</strong> (1 <= <strong>A</strong>, <strong>B</strong>, <strong>K</strong> <= 5*10^4, <strong>A</strong> <= <strong>B</strong>).
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o valor <strong>L</strong>, ou -1 se ele não existir.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+6 13 1
+1 4 3
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+4
+-1
+</div>
+</div>
+<div class="problem-notes">
+Nota: A resposta no primeiro caso de teste é L = 4. Os intervalos criados serão: [6, 6+3], [7, 7+3], [8, 8+3], [9, 9+3], [10, 10+3] = [6, 9], [7, 10], [8, 11], [9, 12], [10, 13]. Todos eles possuem pelo menos um número primo! Tente fazer para L = 1, 2 ou 3 e verá que os intervalos criados não atenderão a vontade de Fossa.
+</div>
+</div>
+
