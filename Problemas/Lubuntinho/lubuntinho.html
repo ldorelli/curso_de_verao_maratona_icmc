@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Lubuntinho</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Todos sabem que Lubuntu é um monstro malvado. Porém, Lubuntu tem um neto que, para ele, é a coisa mais fofa do mundo.
+Atualmente, Lubuntinho está muito interessado na árvore genealógica da família.
+Lubuntinho adora perguntar para o seu avô qual é o relacionamento entre duas pessoas da família. Como Lubuntinho ainda é pequeno, as únicas relações que ele conhece são "pai", "avo", "bisavo", "tataravo", "tataratataravo" e assim em diante.
+Como Lubuntu não quer decepcionar seu neto, ele prendeu você para que você descubra a resposta e ele possa falar para Lubuntinho.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta por vários casos de teste. Cada caso de teste começa com um número <strong>N</strong> (2 <= <strong>N</strong> <= 200) de pessoas na árvore genealógica.
+As próximas <strong>N</strong>-1 linhas contem dois inteiros <strong>A</strong> e <strong>B</strong> entre 0 e <strong>N</strong>-1 indicando que <strong>A</strong> é filho de <strong>B</strong>.
+Por fim, segue uma linha com dois inteiros <strong>D A</strong>, em que <strong>A</strong> é sempre ancestral de <strong>D</strong>.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste, imprima uma das relações conhecidas por Lubuntinho.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3
+0 1
+1 2
+0 2
+7
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+0 6
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+avo
+tataratataratataravo
+</div>
+</div>
+</div>
+

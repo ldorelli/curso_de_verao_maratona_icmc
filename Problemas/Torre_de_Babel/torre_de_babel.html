@@ -1,0 +1,60 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Torre de Babel</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Há várias pessoas trabalhando para construir a Torre de Babel. Cada pessoa fala duas línguas. Duas pessoas só podem conversar entre si se elas falarem uma língua em comum. 
+Uma pessoa pode também usar alguém de tradutor, ou seja, se uma pessoa sabe Inglês e quer conversar com uma pessoa que saiba Alemão, então se existir uma terceira pessoa que saiba Inglês e Alemão esta pessoa poderá traduzir a conversa. 
+Isto se estende para mais de um tradutor, por exemplo, considere uma pessoa que sabe a língua <strong>A</strong> e <strong>B</strong>, uma segunda pessoa que sabe a <strong>B</strong> e <strong>C</strong>, uma terceira que sabe <strong>C</strong> e <strong>D</strong>, e uma quarta <strong>D</strong> e <strong>E</strong>. A primeira pessoa pode conversar com a quarta, pois pode usar a terceira para traduzir o que a quarta disse e pode usar a segunda para traduzir o que a terceira traduziu! Ou seja, tivemos uma tradução de línguas <strong>D</strong>-><strong>C</strong>-><strong>B</strong>.
+Seu objetivo é, dado as línguas de cada pessoa, identificar o grupo de maior tamanho, onde todas as pessoas deste grupo conseguem se comunicar.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+Há vários testes. A primeira linha de cada caso de teste contém um número <strong>N</strong> (1 <= <strong>N</strong> <= 10^3), indicando o número de pessoas. Nas próximas <strong>N</strong> linhas haverá dois números inteiros <strong>a</strong> e <strong>b</strong> (1 <= <strong>a</strong>,<strong>b</strong> <= <strong>N</strong>), indicando as línguas que uma pessoa fala (a primeira destas linhas é referente a primeira pessoa, e assim por diante). É possível que uma pessoa fale duas línguas repetidas!
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste, imprima o maior conjunto de pessoas que consegue se comunicar.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+7
+1 2
+4 6
+5 7
+6 7
+3 1
+2 3
+6 4
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+4
+1
+2
+</div>
+</div>
+
+</div>
+
