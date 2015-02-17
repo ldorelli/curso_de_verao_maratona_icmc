@@ -1,0 +1,58 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Um OR Só</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 3 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Roberterson e seu irmão estavam entediados em sua casa quando resolveram se divertir com um pequeno desafio: primeiramente Roberterson escreveu <strong>N</strong> números inteiros em um pedaço de papel. Logo em seguida ele pediu para que seu irmão falasse um número <strong>X</strong>. Roberterson então checava se existia um subconjunto dos N números escritos por ele tal que o OR (operador <strong>|</strong> em C/C++) desses valores fosse exatamente igual a X.
+
+O jogo parecia fácil demais, então o irmão de Roberterson resolveu complicar: Ao invés de um só número, agora ele falava <strong>M</strong> valores e Roberterson deveria responder para cada um deles se esse subconjunto dos N inteiros existia ou não.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta por varios casos de teste. A primeira linha de cada caso contém dois inteiros <strong>N</strong> (1 ≤ N ≤ 60) e <strong>M</strong> (1 ≤ M ≤ 10<sup>5</sup>) que indicam a quantidade de números escritos por Roberterson e a quantidade de perguntas que seu irmão fará.
+A próxima linha possui N inteiros menores que 2<sup>30</sup>, os valores na lista de Roberterson.
+Por fim seguem mais M inteiros menores que 2<sup>30</sup>, um em cada linha, indicando as M perguntas feitas pelo irmão do Roberterson.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste imprima M linhas, em cada linha imprima "Sim" (sem aspas) caso seja possível formar tal número a partir do OR de algum subconjunto dos N valores disponíveis, ou "Nao" (sem aspas e sem acento) caso não seja possível.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+4 3
+3 5 6 8
+3
+7
+9
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+Sim
+Sim
+Nao
+</div>
+</div>
+
+</div>
+
