@@ -1,0 +1,57 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Broken Ville</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 4 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Broken Ville é uma cidade situada no interior de Byteland, a cidade possui <strong>N</strong> ruas horizontais e <strong>M</strong> avenidas verticais, cada rua se intersecta com cada avenida (isto é, existem <strong>N</strong>*<strong>M</strong> intersecções). As ruas são numeradas de 1 a <strong>N</strong> de cima para baixo, e as avenidas, de 1 a <strong>M</strong> da esquerda para a direita.
+A cidade possui alguns problemas estruturais, sabe-se que <strong>I</strong> intersecções estão quebradas, ou seja, não se pode passar por elas. Isso força os cidadãos a procurar um caminho alternativo.
+O prefeito de Broken Ville deseja saber agora, para <strong>Q</strong> perguntas do tipo <strong>X0</strong>, <strong>Y0</strong>, <strong>X1</strong>, <strong>Y1</strong>, qual o caminho minimo saindo de <strong>X0</strong>, <strong>Y0</strong> para chegar em <strong>X1</strong>, <strong>Y1</strong>.
+<Strong> OBS: Quando se move de uma intersecção para outra, conta-se 1 passo</strong>
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta de multiplos casos de teste. A primeira linha de cada caso possui três inteiros <strong>N</strong>, <strong>M</strong> (1 <= <strong>N</strong>,<strong>M</strong> <= 20) e <strong>I</strong> (0 <= <strong>I</strong> <= <strong>N</strong>*<strong>M</strong>). As próximas <strong>I</strong> linhas contém dois inteiros <strong>X</strong>(1 <= <strong>X</strong> <= N),<strong>Y</strong> (1 <= <strong>Y</strong> <= M)  cada, representando que a intersecção da rua <strong>X</strong> com a avenida <strong>Y</strong> está quebrada.
+A próxima linha contém um inteiro <strong>Q</strong> (1 <= <strong>Q</strong> <= 10^5). As próximas <strong>Q</strong> linhas contém quatro inteiros <strong>X0</strong>,<strong>Y0</strong>,<strong>X1</strong>,<storng>Y1</strong> (1 <= <strong>X0</strong>,<strong>X1</strong> <= <strong>N</strong>), (1 <= <strong>Y0</strong>,<strong>Y1</strong> <= M).
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso imprima <strong>Q</strong> linhas, a <strong>i</strong>-ésima linha deve conter, se for possivel chegar em <strong>X1</strong>, <strong>Y1</strong> saindo de <strong>X0</strong>, <strong>Y0</strong>, a distância minima percorrida ou -1 caso for impossivel chegar em <strong>X1</strong>, <strong>Y1</strong>.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3 3 2
+2 2
+3 2
+1
+3 1 3 3
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+6
+</div>
+</div>
+Caminho: (3,3)->(2,3)->(1,3)->(1,2)->(1,1)->(2,1)->(3,1)
+</div>
+
