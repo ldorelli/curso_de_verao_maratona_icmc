@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Shibonacci</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundo (~50 casos) </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Shi gosta de inventar sequências. Desta vez ele criou um grupo de sequências que são uma generalização da sequência de Fibonacci, ele chamou esse grupo de sequências de Shibonacci. 
+
+Na sequência de Fibonacci o X-ésimo Fibonacci pode ser obtido pela fórmula F(X) = F(X-1) + F(X-2). As sequências de Shibonacci possuem cada uma um número inteiro K associado à ela, sendo que S<sub>K</sub>(X) pode ser obtido pela somatória de S<sub>K</sub>(X - i) para i = 1 até i = K. Ou seja, a sequência de Fibonacci é uma sequência de Shibonacci com K = 2 (S<sub>2</sub>(X) = F(X)). Os casos bases das sequências de Shibonacci são dados por S<sub>K</sub>(i) = 1 para i = 0 até i = K - 1. 
+
+Shi é preguiçoso e pediu para você escrever um programa que dado K e dado X ele retorne S<sub>K</sub>(X).
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada possui vários casos de teste. Cada caso de teste terá uma linha com dois inteiros K (1 ≤ K ≤ 100) e X (0 ≤ X ≤ 10000).
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste imprima S<sub>K</sub>(X) mod 1000000007.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3 10
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+193
+</div>
+</div>
+
+</div>
+
