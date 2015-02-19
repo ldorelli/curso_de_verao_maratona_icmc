@@ -1,0 +1,60 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Roberterson Jóias Delivery</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo (~30 casos) </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Depois de encontrar mais uma fonte de pedras preciosas, Roberterson decidiu abrir o ROBERTERSON JÓIAS DELIVERY. Através desse serviço, os clientes podem pedir jóias pelo telefone e Roberterson faz a entrega de carro na casa delas no dia seguinte.
+
+O delivery fez muito sucesso nos primeiros dias mas, depois de fazer contas, Roberterson notou que estava levando prejuízo por causa do preço da gasolina. O preço não parava de subir desde o aumento inexplicável de utilizadores de automóveis em alguns países devido a perda dos membros inferiores (chamada posteriormente de A Grande Crise da Falta de Pernas). Roberterson não quer aumentar o preço de suas jóias e por este motivo resolveu otimizar a rota de entrega para economizar gasolina. 
+
+A sede do Delivery fica localizada no ponto 0 da cidade. Cada dia Roberterson precisa fazer <strong>N</strong> entregas em casas diferentes (posicionadas nos pontos 1 até N). Cada casa i fez uma encomenda de <strong>a<sub>i</sub></strong> jóias e inicialmente Roberterson carrega as jóias de todas as entregas em seu carro. Como as jóias são pesadas, são gastas D·X unidades de gasolina para percorrer uma distancia D com X jóias no porta-malas. Quando uma entrega é realizada, as jóias da encomenda são descarregadas, diminuindo o peso do carro.
+
+Roberterson sabe todas as distâncias <strong>D<sub>ij</sub></strong> entre os pontos i e j na cidade (0 ≤ i,j ≤ N). Saindo da sede, Roberterson gostaria de saber qual é o mínimo de gasolina que consegue gastar para entregar todas as jóias sem passar no mesmo ponto mais de uma vez (por consequência, sem considerar a gasolina que ele usa pra voltar para sede).
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta por vários casos de teste. A primeira linha de cada caso terá um inteiro <strong>N</strong> (1 ≤ N ≤ 13). A segunda linha terá N inteiros <strong>a<sub>i</sub></strong> (1 ≤ a<sub>i</sub> ≤ 100) de i = 1 até i = N indicando o número de jóias da encomenda da casa i. Na i-ésima linha das próximas N+1 linhas serão dados N+1 inteiros <strong>D<sub>ij</sub></strong> (1 ≤ D<sub>ij</sub> ≤ 10000) com j = 0 até j = N indicando as distâncias entre os pontos i e j.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Para cada caso de teste imprima uma linha com o mínimo de gasolina que Roberteson consegue gastar para entregar todas as jóias.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3
+5 10 1
+0 2 30 5
+2 0 20 1
+30 20 0 5
+5 1 5 0 
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+93
+</div>
+</div>
+<p style="margin-left:5%">Explicação do exemplo: A melhor rota é passar nas casas na ordem 1, 3, 2.</p>
+</div>
+

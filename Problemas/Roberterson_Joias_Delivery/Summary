@@ -1,0 +1,1 @@
+A solução esperada é uma PD com 2 estados: a bitmask das casas ja visitadas e a posição que ele está.
