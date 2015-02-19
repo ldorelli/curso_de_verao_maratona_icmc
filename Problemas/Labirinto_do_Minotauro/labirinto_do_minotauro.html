@@ -1,0 +1,81 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Labirinto do Minotauro</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1segundo (~50 casos) </div>
+	<div class="detail"> ML: 64MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Shi está preso no labirinto do Minotauro. O labirinto pode ser representado por uma matriz de N linhas e M colunas. Em cada posição do labirinto há um identificador que indica qual ação que ele pode tomar:
+
+<ul>
+	<li>> : Shi pode dar um passo para a direita.</li>
+	<li>< : Shi pode dar um passo para a esquerda.</li>
+	<li>^ : Shi pode dar um passo para cima.</li>
+	<li>v : Shi pode dar um passo para baixo.</li>
+	<li># : Shi pode dar um passo em qualquer direção.</li>
+</ul>
+
+Um passo é válido se e somente se após andar Shi ainda está dentro dos limites do labirinto! Shi jamais pode sair dos limites do labirito! Ele começa no canto superior esquerdo.
+Uma equipe de resgate está a caminho para resgatá-lo do labirinto. O único meio de sobreviver até que ela chegue é se Shi conseguir sempre dar um passo. Isto é, o minotauro está sempre atrás dele, e caso ele fique encurralado irá alcançá-lo! 
+Por simplicidade o Minotauro não ocupa nenhuma posição na matriz. A cada segundo Shi deve dar um passo válido, ou seja, deve obedecer o tipo da ação da posição em que se encontra. Se o próximo passo levará Shi para fora do labirinto então o passo é inválido, pois o labirinto é fechado.
+Existe alguma sequência infinita de passos que Shi pode seguir? Ou seja, existe algum meio de ele sempre dar um passo a cada segundo se ele seguir alguma estratégia válida?
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A primeira linha de cada caso de teste contém o número <strong>N</strong> (1 <= <strong>N</strong> <= 1000) e <strong>M</strong> (1 <= <strong>M</strong> <= 1000), o número de linhas e de colunas. Nas próximas <strong>N</strong> linhas há strings de comprimento <strong>M</strong> representando a configuração do labirinto. Leia até o <strong>EOF</strong>.
+</div>
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima "S" caso Shi consiga sobreviver ou "N" caso contrário.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+1 1
+#
+2 2
+>v
+^<
+2 2
+##
+##
+4 3
+#>>
+v<#
+v^#
+>>^
+4 3
+#>>
+v^<
+v^^
+>>^
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+N
+S
+S
+S
+N
+</div>
+
+</div>
+
+</div>

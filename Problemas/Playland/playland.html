@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Playland</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 1 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Zomberterson é dono de um arcade para crianças zumbis especializado em jogos multi-jogador. As máquinas que ele compra para seu arcade não são pagas em dinheiro, mas sim em pontos de jogo. 
+
+O arcade de Zomberterson suporta até 12 clientes e possui entrada por hora. Os jogos do arcade de Zombertersom são peculiares: eles cobram um valor base diferente de pontos, até 10^7, para cada criança (segundo um pacote de serviços) de acordo com a quantidade de crianças que estão jogando com ela (ver entrada e saida para melhor entendimento). A cada segundo cada criança é cobrada esse valor base incrementado de 1 ponto, totalizando 3600 cobranças por criança durante o período que ela fica no Arcade (Periodo de 1 hora). Apesar disso, graças a um acordo de Zomberterson com o fornecedor, ele só precisa possuir um número de pontos que seja maior ou igual a metade das cobranças feitas no período para pagar o uso das máquinas.
+
+As crianças se revezam entrando no arcade a cada hora, após fugirem de suas tumbas, em grupos desconhecidos a princípio. Zomberterson está preocupado com a situação, pois não sabe dizer se vai ter pontos suficientes para permitir que as crianças joguem independentemente do grupo que entrar na próxima hora.
+
+Ajude Zomberterson a decidir o número mínimo de pontos que ele precisa ter para assegurar que as crianças vão poder jogar tranquilamente.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada do problema é composta por vários casos de teste.
+Cada caso de teste começa com um número, <strong>N</strong> (1 <= N <= 12), que indica quantas crianças podem chegar na próxima hora no arcade.
+As próximas <strong>N</strong> linhas descrevem o pacote de cobranças para cada uma das crianças. A i-ésima dessas linhas tem <strong>N</strong> números, indicando quanto a i-ésima criança paga para jogar se estiver com outras j crianças no arcade.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o número mínimo de pontos que Romberterson precisa ter para que todos seus clientes joguem.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3
+7 2 1
+2 4 6
+2 5 2
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+1807
+</div>
+</div>
+
+</div>
+
