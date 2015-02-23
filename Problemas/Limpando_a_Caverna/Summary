@@ -1,0 +1,1 @@
+A solução esperada é usar uma priority queue para usar sempre a aresta acessível com monstro de menor nível.

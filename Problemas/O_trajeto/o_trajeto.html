@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+
+<h1>O Trajeto</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundos </div>
+	<div class="detail"> ML: 128MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Robertersson está analisando o mapa de sua cidade e quer saber qual a menor distancia de sua casa, indicada pelo número 1, até seu destino,
+indicado pelo número N. Seu mapa é elegantemente colorido, cada rua possue uma cor. Como sabemos, Robertersson é um rapaz muito estranho, ele não quer, 
+de maneira alguma, andar em um caminho onde duas ruas seguidas possuam a mesma cor. Ajude Robertersson a achar o menor caminho que satisfassa suas condições.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta de vários casos de testes.
+Na primeira linha haverá um inteiro <strong>N</strong> correspondente ao número de locais em seu mapa, um inteiro <strong>M</strong> correspondente ao número de ruas e um inteiro <strong>C</strong> que corresponde ao número de cores diferentes que o mapa de Robertersson possui.
+Seguem <strong>M</strong> linhas descrevendo cada rua no seguinte formato: <strong>u</strong> <strong>v</strong> <strong>c</strong> que significa que há uma rua entre os locais <strong>u</strong> e <strong>v</strong> de cor <strong>c</strong>.
+1 < N <= 50000
+0 < M <= 50000
+1<=u,v<=N
+0 < c <=50000
+0 <= C <= M 
+
+Obs.: Toda rua é bi-direcional e tem comprimento 1.
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+Imprima o comprimento do menor caminho entre o local 1 e o local N, que não possua ruas adjacentes de mesma cor.
+Caso não haja nenhum caminho imprima -1.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+4 4 3
+1 2 1
+2 3 2
+1 3 3
+3 4 3
+3 2 1
+1 2 1
+2 3 1
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+3
+-1
+</div>
+</div>
+
+</div>
+
