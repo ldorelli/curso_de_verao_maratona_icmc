@@ -42,7 +42,10 @@ int main(int argc, char const *argv[])
 		cout << endl;
 		for(int i = 0; i < n; i++){
 			for(int j = 0; j < n; j++){
-				cout << rand()%200001 - 100000 << " ";
+				if(i == j)
+					cout << 0 << " ";
+				else
+					cout << rand()%200001 - 100000 << " ";
 			}
 			cout << endl;
 		}

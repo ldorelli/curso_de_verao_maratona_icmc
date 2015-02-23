@@ -1,4 +1,4 @@
-// Bianca Oe
+// Bianca Oe 2015
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
