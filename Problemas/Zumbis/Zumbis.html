@@ -1,0 +1,112 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>﻿
+
+
+
+
+
+
+
+<div>
+
+
+
+<h1>Zumbis</h1>
+
+
+
+<div>
+
+	<div> TL: 1 segundos </div>
+
+	<div> ML: 128MB </div>
+
+</div>
+
+
+
+
+
+<div>
+
+Certa noite o senhor Nostradamus caminhava calmamente pelo cemitério da cidade, quando notou que zumbis estavam andando livremente tentando fugir daquele lugar. Os zumbis eram bem burros e portanto sempre saiam de suas tumbas, andavam em linha reta na direção em que suas tumbas apontavam, até que batiam de cara numa das quatro paredes que cercavam o cemitério, giravam 180º e voltavam também em linha reta, até chegar novamente na tumba de onde sairam, eles caiam na tumba e reiniciavam o processo (se houver uma tumba no caminho de ida ou de volta, que nao seja a sua, ele simplesmente pula e continua seguindo reto).
+Vendo esse movimento metódico, Nostradamus teve a brilhante idéia de cavar buracos para prender os zumbis e não deixar que eles continuem tentando escapar. Nostradamus também é muito preguiçoso e portanto pretende cavar exatamente <strong> K </strong> buracos e quer pegar o máximo de zumbis possíveis com eles, você consegue dizer qual o máximo de zumbis que ele consegue pegar?
+O cemitério da cidade pode ser represetando como uma matriz onde a posição 1,1 se encontra no canto superior esquerdo.
+
+</div>
+
+
+
+<h2> Entrada </h2>
+
+
+
+
+
+<div>
+
+A entrada é composta de varios casos de teste. A primeira linha de cada caso contém um inteiro <strong>N</strong>(1 <= <strong>N</strong> <= 9), indicando a quantidade de tumbas no cemitério e um inteiro K (1 <= <strong>K</strong> <= N) indicando a quantidade de buracos que ele quer cavar.
+
+As próximas N linhas contém cada uma as propriedades de uma tumba: Os dois primeiros inteiros X, Y (1 <= X,Y <= 10^9) indicam respectivamente a linha e a coluna em que a tumba está posicionada. A string que está a seguir indica a direção em que os zumbis saem da tumba ("Esquerda", "Direita", "Cima", "Baixo"), e o último inteiro indica a quantidade de zumbis que saem daquela tumba (No minimo 1 e no máximo 10^9 zumbis saem de cada tumba).
+
+Note que mais de uma tumba pode estar posicionada no mesmo lugar, e se um buraco é cavado no lugar onde está uma tumba, todos os zumbis da tumba são capturados.
+
+</div>
+
+
+
+
+
+<h2> Saída </h2>
+
+
+
+
+
+<div>
+
+Para cada caso de teste imprima uma única linha contendo a quantidade máxima de zumbis que ele consegue pegar usando K buracos.
+
+</div>
+
+
+
+<h2> Exemplos </h2>
+
+
+
+<div>
+
+
+
+<div><strong>Entrada de Teste</strong>
+
+3 1
+1 1 Baixo 10
+2 1 Cima 1
+2 2 Direita 1
+
+</div>
+
+
+
+
+
+<div><strong>Saída de Teste</strong>
+
+11
+
+A solução ótima é colocar um buraco em algum lugar na primeira coluna do grid
+Obs: É possivel cavar buracos em cima de tumbas (A tumba se transforma em um buraco)
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+</body></html>

@@ -1,1 +1,1 @@
-A solução esperada é uma PD com 2 estados: a bitmask das casas ja visitadas e a posição que ele está.
+Achar o custo total do caminho que visita todos os vértices e tem menor custo. Cada vértice que for visitado diminui o custo das arestas. Uma solução possível é uma PD com 2 estados: a bitmask das casas ja visitadas e a posição que ele está.

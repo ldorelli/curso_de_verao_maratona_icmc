@@ -1,4 +1,4 @@
-// Tomas Fonseca
+// Tomas Fonseca 2015
 #include <iostream>
 #include <algorithm>
 #include <set>

@@ -1,0 +1,58 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Zomberterson no Fim do Mundo</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 3 segundos </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+A civilização zumbi, assim como a humana que a precedeu, teve altos e baixos. Gerações e gerações de zumbis habitaram o planeta durante centenas de anos, desfrutando de uma cultura rica em dança, rituais de trocas de partes de corpo, arcades e muita jogatina.
+O lendário Zomberterson viveu todos os altos e baixos dessa história. Agora, porém, os zumbis não mais habitam a terra, e Zomberterson vaga pelos campos silenciosos e vazios que um dia foram tão inspiradores. 
+
+Sentado em seu antigo arcade, Zomberterson pensa sobre as glórias do passado. Especificamente, ele quer saber se é o melhor zumbi que já existiu. O procedimento para calcular o índice de lenda de um zumbi está descrito no livro dos recordes de Zomberterson (o fato do livro levar o nome dele é um sinal), é bastante complicado. 
+
+O procedimento é o seguinte: primeiro, separam-se N (1 <= N <= 8) características importantes para zumbis, como dança, número de olhos, etc. Consideram-se então os últimos M (1 <= M <= 10^2) dias em que o zumbi esteve ativo no mundo (fora de sua tumba). Para cada um desses M dias, há uma nota R (1 <= R <= 10^8) para cada uma das N características realizadas pelo zumbi. 
+
+O índice de lenda é calculado então considerando cada uma das características: escolhe-se um dia para cada uma das características e sama-se a nota obtida pelo zumbi nessa característica naquele dia. Entretanto, há uma pequena complicação: se usar a característica i no k-ésimo dia, o zumbi só poderá pegar um dia posterior que tenha uma nota na característica i cuja a diferença da nota i no k-ésimo dia seja no máximo D (1 <= D <= 10^8). Isso é chamado pelos zumbis de índice de consistência: não é desejável que um zumbi negligencie demais uma característica para melhorar em outra nos próximos dias. Zomberterson deve escolher as notas em ordem crescente de dias: ele não pode escolher uma nota do dia 7 e depois escolher uma nota do dia 3 - nesse caso ele escolheria uma no dia 3 e depois no 7.
+
+Dado o registro dos últimos M dias de Zomberterson, ajude-o a calcular o melhor índice de lenda zumbi possível para ele.
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada consiste de vários casos de teste. Cada caso de teste começa com três números: N, M e D. Seguem-se então M linhas, cada uma com N linhas. O k-ésimo elemento da i-ésima linha identifica a nota que Zomberterson possui para a k-ésima característica no i-ésimo dia.
+</div>
+
+
+<h2> Saída </h2>
+
+<div class="io-description">
+Para cada caso de teste imprima um número, N, que é o melhor índice zumbi que Zomberterson pode obter.
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+3 3 8
+9 1 1
+10 8 8
+9 1 5
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+22
+</div>
+</div>
+</div>
+

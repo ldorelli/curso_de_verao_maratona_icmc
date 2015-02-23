@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../TEMPLATE/problemas.css" />
+<meta charset="utf-8">
+
+<div class="problem-container">
+<!-- Insira o título do problema. -->
+<h1>Strings Irmãs</h1>
+
+<div class="problem-details">
+	<div class="detail"> TL: 2 segundo </div>
+	<div class="detail"> ML: 128 MB </div>
+</div>
+
+<!-- Insira a descrição do problema. -->
+<div class="problem-description">
+Dada uma string S de tamanho N e sejam A e B duas subsequências em S que são geradas seguindo as seguintes regras:
+
+Sejam i e j dois indices de S, se i foi escolhido para pertencer a A e j foi escolhido para pertencer a B então i deve ser diferente de j. Isso deve ser valido para todos os pares i,j pertencentes a S
+
+Para cada indice k das subsequencias escolhidas A[k] deve ser igual a B[k] (isso implica que A e B devem ter o mesmo tamanho, tamanho esse que chamaremos de <strong>T</strong>)
+
+A escolha dos indices deve ser alternada, isso é, se existem dois indices i e j pertencentes a S e j > i, e j foi escolhido logo após i, então obrigatóriamente j e i não podem pertencer a mesma subsequência (ou seja, se i pertence a A então j deve pertencer a B e vice-versa).
+
+Sua tarefa é encontrar o valor máximo de <strong>T</strong>.
+
+</div>
+
+<h2> Entrada </h2>
+
+<!-- Insira o formato da entrada. -->
+<div class="io-description">
+A entrada é composta por varios casos de teste. A primeira linha de cada caso contém um inteiro N (1 <= N <= 10^5), denotando o tamanho da string S. A segunda linha contém N letras minusculas do alfabeto ingles (de 'a' até 'z').
+</div>
+
+
+<h2> Saída </h2>
+
+<!-- Insira o formato da saída. -->
+<div class="io-description">
+A saida deve conter uma linha para cada caso de teste, o valor máximo de T (Caso nao exista nenhuma Subsequenca A e B que satisfaçam as condições, a resposta deve ser 0).
+</div>
+
+<h2> Exemplos </h2>
+
+<div class="example-box">
+<!-- Insira os exemplos de entrada. -->
+<div class="example"><strong>Entrada de Teste</strong>
+6
+abacbc
+</div>
+
+<!-- Insira os exemplos de saída. -->
+<div class="example"><strong>Saída de Teste</strong>
+2
+</div>
+</div>
+Se numerarmos as posições da string, temos:
+|0|1|2|3|4|5|
+|a|b|a|c|b|c|
+a resposta ótima é A = ac e B = ac (A = {0,3};  B = {2, 5})
+</div>
+

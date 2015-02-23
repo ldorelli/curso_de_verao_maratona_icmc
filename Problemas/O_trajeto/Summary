@@ -1,0 +1,1 @@
+Descobrir se tem um caminho entre dois vértices que não tem duas arestas seguidas com a mesma cor. Para isso, uma das soluções  possíveis é guardar os dois menores caminhos que tenham a última aresta com cor diferente utilizando BFS.

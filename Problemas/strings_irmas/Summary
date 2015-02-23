@@ -1,0 +1,1 @@
+A partir de uma string S, é possível montar duas strings A e B da seguinte forma: Primeiro pegar um caractere de S para por em A, depois pegar um caractere que vem depois do que foi colocado em A para por em B, e continuar fazendo isso alternadamente. O problema pergunta qual são os tamanhos das maiores strings que podem ser montadas tal que A = B.
